@@ -83,6 +83,7 @@ const Hero = () => {
           overflow: "hidden"
         }}
       >
+        
         {[...Array(30)].map((_, i) => (
           <motion.div
             key={i}
@@ -106,6 +107,7 @@ const Hero = () => {
             }}
           />
         ))}
+        
       </div>
 
       {/* NEW FULL-WIDTH FLEX GRID  */}
@@ -125,19 +127,20 @@ const Hero = () => {
           opacity: opacitySpring
         }}
       >
+        
         {/* LEFT SIDE — TEXT CONTENT */}
         <div style={{ maxWidth: "720px", display: "flex", flexDirection: "column", gap: "2rem" }}>
          
-          
-
           {/* Branding */}
           <motion.div variants={fadeInUp} style={{ display: "flex", alignItems: "center", gap: 14 }}>
            
-            <div style={{ display: "flex", flexDirection: "column", gap: 4 ,alignItems: "center"}}>
+            <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
               <p style={{ margin: 0, letterSpacing: "0.18em", color: "var(--cream)" ,fontSize: "1.5rem"}}>ARANYAS PRIVATE LIMITED</p>
               <small style={{ color: "var(--stone)", letterSpacing: "0.2em" ,fontSize: "0.9rem"}}>Mangaluru · Dubai</small>
             </div>
           </motion.div>
+
+          
 
           {/* Title */}
           <motion.h1

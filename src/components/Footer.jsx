@@ -164,8 +164,8 @@ const Footer = () => (
         <div>
           <p style={columnTitleStyle}>Connect</p>
           <div style={columnListStyle}>
-            <a href="mailto:director@aranyasglobal.com" style={footerLinkStyle}>
-              director@aranyasglobal.com
+            <a href="mailto:contactus@aranyasglobal.com" style={footerLinkStyle}>
+              contactus@aranyasglobal.com
             </a>
             <a href="tel:+917760703887" style={footerLinkStyle}>
               +91 7760703887

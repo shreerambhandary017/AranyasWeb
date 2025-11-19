@@ -99,7 +99,7 @@ main {
 
 section {
   width: 100%;
-  padding: 120px 6vw;
+  padding: clamp(80px, 12vh, 140px) clamp(4vw, 6vw, 8vw);
   position: relative;
 }
 
@@ -251,6 +251,20 @@ section {
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
+  padding: 0 clamp(1rem, 3vw, 2.75rem);
+}
+
+.section-shell {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 3vw, 2.75rem);
+}
+
+@media (max-width: 1024px) {
+  .section-shell {
+    padding: 0 clamp(0.75rem, 4vw, 2rem);
+  }
 }
 
 .glass-panel {
@@ -282,7 +296,11 @@ a:hover {
 
 @media (max-width: 768px) {
   section {
-    padding: 80px 5vw;
+    padding: 68px 4.5vw;
+  }
+
+  .section-shell {
+    padding: 0 clamp(0.5rem, 5vw, 1.5rem);
   }
 
   .glass-panel {
@@ -292,6 +310,20 @@ a:hover {
   .hero-badges {
     border-radius: 28px;
     padding: 16px;
+  }
+
+  .hero-title {
+    font-size: clamp(2.2rem, 8vw, 3.4rem);
+    text-align: left;
+  }
+
+  .hero-subhead {
+    text-align: left;
+    font-size: 0.95rem;
+  }
+
+  .hero-cta-row {
+    justify-content: flex-start;
   }
 
   .hero-icon-shell {
