@@ -19,7 +19,7 @@ const heroSpotlight = {
     "Four size runs with reinforced seams",
     "Ideal for schools, offices, and premium retail"
   ],
-  image: textures.carry_heavy
+  image: textures.spotlight
 };
 
 const Hero = () => {
@@ -135,7 +135,7 @@ const Hero = () => {
           <motion.div variants={fadeInUp} style={{ display: "flex", alignItems: "center", gap: 14 }}>
            
             <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
-              <p style={{ margin: 0, letterSpacing: "0.18em", color: "var(--cream)" ,fontSize: "1.5rem"}}>ARANYAS PRIVATE LIMITED</p>
+              <p style={{ margin: 0, letterSpacing: "0.18em", color: "var(--cream)" ,fontSize: "1.2rem"}}>ARANYAS PRIVATE LIMITED</p>
               <small style={{ color: "var(--stone)", letterSpacing: "0.2em" ,fontSize: "0.9rem"}}>Mangaluru · Dubai</small>
             </div>
           </motion.div>
@@ -169,10 +169,15 @@ const Hero = () => {
               maxWidth: "640px"
             }}
           >
-            Premium biodegradable bags crafted from{" "}
-            <span style={{ color: "#d6b263", fontWeight: 600 }}>cornstarch</span> and{" "}
-            <span style={{ color: "#d6b263", fontWeight: 600 }}>potato starch</span>.
-            Built for schools, corporates, government supply, and premium retail.
+            Coconut gardens, areca plantations, temple bells echoing across the fields,
+             and the steady rhythm of the monsoon — Tulunadu has always taught us that nature is not a resource, 
+             but a sacred responsibility.{" "} <span style={{ color: "#d6b263", fontWeight: 600 }}>ಇವೆಲ್ಲದ ಮಧ್ಯೆ ಜನಿಸಿದ ಅರಣ್ಯಸ್ </span>{" "}(Aranyas) carries this truth forward, 
+             crafting biodegradable bags in Mangaluru with the same respect for{" "} <span style={{ color: "#d6b263", fontWeight: 600 }}>ಮಣ್ಣು </span> (soil), <span style={{ color: "#d6b263", fontWeight: 600 }}>ಪವಿತ್ರತೆ </span> (purity), 
+             and <span style={{ color: "#d6b263", fontWeight: 600 }}>ಸಮತೋಲನ </span> (balance) that our land has protected for centuries. 
+             This is our way of honouring Tulunadu — weaving its ethos into every fibre we create, 
+             so the world can experience nature the way we were taught to cherish it.
+            
+          
           </motion.p>
 
           {/* Badges */}

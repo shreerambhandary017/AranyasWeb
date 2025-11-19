@@ -105,8 +105,9 @@ export default function NavBar() {
                 fontFamily: theme.typography.serif,
                 fontSize: "1rem",
                 letterSpacing: "0.32em",
-                margin: 0,
+                margin: 4,
                 color: theme.colors.cream,
+                letterSpacing: "0.5em",
               }}
             >
               ARANYAS
@@ -116,6 +117,7 @@ export default function NavBar() {
                 color: theme.colors.cream,
                 opacity: 0.8,
                 fontSize: "0.75rem",
+                letterSpacing: "0.2em",
               }}
             >
               Nature&apos;s Way of Packaging

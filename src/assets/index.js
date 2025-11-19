@@ -7,6 +7,9 @@ export const textures = {
   // Raw materials
   pellets_starch: new URL('./pellets_corn.jfif', import.meta.url).href,
 
+  //Spotlight
+  spotlight: new URL('./aranyas_spotlight.png', import.meta.url).href,
+
   // Product photography
   carry_light: new URL('./bag_carry_light.jfif', import.meta.url).href,
   carry_light_alt: new URL('./bag_carry_light1.jfif', import.meta.url).href,
