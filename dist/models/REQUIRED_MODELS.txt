@@ -1,0 +1,23 @@
+REQUIRED 3D MODEL FILES
+========================
+
+Place your GLB model files in this directory with these EXACT names:
+
+1. biodegradable-bag.glb          (HIGHEST PRIORITY - Hero section)
+2. sugarcane-stalk.glb            (Background element)
+3. printing-press.glb             (Custom printing showcase)
+4. bioplastic-pellets.glb         (Raw materials section)
+5. extrusion-machine.glb          (Factory environment)
+6. injection-machine.glb          (Factory environment)
+
+FILE REQUIREMENTS:
+- Format: GLB (single file, not GLTF with external files)
+- Size: < 5MB per file (optimize if larger)
+- Textures: PBR 4K (base color, metalness, roughness, normal, alpha)
+- Background: Transparent (alpha channel)
+
+Once you place the files here, they will automatically load in the website.
+No code changes needed!
+
+See 3D_MODEL_GUIDE.md for detailed specifications.
+
