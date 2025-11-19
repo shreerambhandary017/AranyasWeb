@@ -18,7 +18,7 @@ const ContactForm = () => {
     e.preventDefault();
     setStatus({ loading: true, success: null });
     try {
-      await axios.post('https://formspree.io/f/xbjqwvob', form);
+      await axios.post('https://formspree.io/f/xldzboqq', form);
       setStatus({ loading: false, success: true });
       setForm(initialState);
     } catch (error) {
