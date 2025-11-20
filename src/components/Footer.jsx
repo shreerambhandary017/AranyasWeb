@@ -26,7 +26,7 @@ const socialLinks = [
   },
   {
     label: 'Instagram',
-    href: 'https://www.instagram.com/aranyaspk/',
+    href: 'https://www.instagram.com/aranyas.global?igsh=MWR5NmkyZW9lMW1vNA==',
     icon: (
       <path d="M8 3h8c3 0 5 2 5 5v8c0 3-2 5-5 5H8c-3 0-5-2-5-5V8c0-3 2-5 5-5Zm0 2c-1.7 0-3 1.3-3 3v8c0 1.7 1.3 3 3 3h8c1.7 0 3-1.3 3-3V8c0-1.7-1.3-3-3-3H8Zm8.2 2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4ZM12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z" />
     )
@@ -171,7 +171,7 @@ const Footer = () => (
               +91 7760703887
             </a>
             <a
-              href="https://maps.app.goo.gl/8jRh9mnjFspJYvQh6"
+              href="https://maps.app.goo.gl/4cPrL3pMarWAmx3R9"
               target="_blank"
               rel="noreferrer"
               style={footerLinkStyle}
