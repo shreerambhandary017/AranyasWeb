@@ -16,7 +16,7 @@ const leaders = [
   },
   {
     name: 'Sameeksha Shetty',
-    title: 'Director, Marketing & Sales Head',
+    title: 'Director (Marketing & Sales Head)',
     email: 'sameekshashetty266@gmail.com',
     phone: '+91 7022560892 · +971 568549664',
     image: textures.leader2,
