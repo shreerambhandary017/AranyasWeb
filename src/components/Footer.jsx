@@ -110,7 +110,7 @@ const Footer = () => (
             Book a private material lab tour
           </p>
           <a
-            href="mailto:hello@aranyaspk.com?subject=Material%20Lab%20Tour"
+            href="mailto:contactus@aranyasglobal.com?subject=Material%20Lab%20Tour"
             style={{
               display: 'inline-flex',
               marginTop: 12,
