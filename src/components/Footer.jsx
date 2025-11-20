@@ -171,7 +171,7 @@ const Footer = () => (
               +91 7760703887
             </a>
             <a
-              href="https://maps.app.goo.gl/4cPrL3pMarWAmx3R9"
+              href="https://maps.app.goo.gl/yFdQ9eJvQCqsMNPS8"
               target="_blank"
               rel="noreferrer"
               style={footerLinkStyle}
