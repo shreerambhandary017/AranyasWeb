@@ -76,8 +76,8 @@ const Contact = () => (
       >
         <div className="glass-panel" style={{ padding: 0, overflow: 'hidden' }}>
           <iframe
-            title="Aranyas Estate"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7921.603523121146!2d75.012917!3d12.939056!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba3585fe21f7f07%3A0x7eea8a1ebe807c63!2s12%C2%B056'20.6%22N%2075%C2%B000'46.5%22E!5e0!3m2!1sen!2sin!4v1732011220000!5m2!1sen!2sin"
+            title="Aranyas Private Limited"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.40536514809!2d75.01322499999999!3d12.939112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4a9a650879c65%3A0x81d61e3dc1ca9f66!2sAranyas%20Private%20Limited!5e1!3m2!1sen!2sin!4v1763616363246!5m2!1sen!2sin" 
             width="100%"
             height="400"
             style={{ border: 0, filter: 'grayscale(50%) contrast(1.2) brightness(0.8)' }}
